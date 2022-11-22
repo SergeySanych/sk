@@ -1,0 +1,20 @@
+{% extends 'mapp/layout.html' %}
+
+{% block title %}
+    Главная страница
+{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <p>Привет Мир!</p>
+
+    {% for el in values %}
+        <p>{{ el|upper }} </p>
+    {% endfor %}
+
+    {% for el in obj %}
+        <p>{{ el }} </p>
+    {% endfor %}
+
+
+{% endblock %}

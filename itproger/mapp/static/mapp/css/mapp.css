@@ -1,0 +1,58 @@
+body {
+    background: antiquewhite;
+}
+
+aside {
+    float: left;
+    background: burlywood;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    border-right: 5px solid brown;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+aside ul {
+    list-style: none;
+    font-size: 20px;
+
+}
+aside ul a {
+        text-decoration: none;
+}
+aside ul li {
+    display: block;
+    margin-top: 20px;
+    color: brown;
+    transition: transform 0.2s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: darkred;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    width: 500px;
+    margin-left: 32%;
+    margin-top: 50px;
+}
